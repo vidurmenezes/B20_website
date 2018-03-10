@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="labs.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+</script>
+</head>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<body style="font-family:Verdana;color:#aaaaaa;">
+  <div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="news.html">News</a>
+    <a href="https://piazza.com/class/jcpjjp5l4bywd">Discussion Board</a>
+    <a href="lectures.html">Lectures</a>
+    <a href="labs.html" class="active">Labs</a>
+    <a href="assignment.html">Assignments</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+     <div id="background">
+  <div id="CourseTitle">
+    <h1>LABS</h1>
+      <br>
+      <i class="fas fa-flask fa-5x"></i>
+  </div>
+  
+  <div style="padding-left:16px;margin-top: 400px;">
+    <ul id="weeklist">
+      <li>Week 1</li>
+      <div>
+        <ul id="lablinks">
+          <li>
+            <a href="https://portal.utoronto.ca/bbcswebdav/pid-6518039-dt-content-rid-42421796_2/courses/Winter-2018-CSCB20H3-S-LEC01/Week%201%20Handout.pdf">Week 1 Handout.pdf</a>
+          </li>
+          <li>
+            <a href="https://portal.utoronto.ca/bbcswebdav/pid-6518047-dt-content-rid-42422610_2/courses/Winter-2018-CSCB20H3-S-LEC01/file_basics.txt">file_basics.txt</a>
+          </li>
+        </ul>
+      </div>
+    </ul>
+  </div>
+</body>
+</html>
