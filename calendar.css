@@ -1,10 +1,10 @@
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 td {
-	padding: 0;
+  padding: 0;
 }
 
 .container {
@@ -16,86 +16,86 @@ td {
 }
 
 .calendar-container {
-	position: relative;
-	width: 450px;
+  position: relative;
+  width: 450px;
 }
 
 .calendar-container header {
-	border-radius: 1em 1em 0 0;
-	background: #e66b6b;
-	color: #fff;
-	padding: 3em 2em;
+  border-radius: 1em 1em 0 0;
+  background: #e66b6b;
+  color: #fff;
+  padding: 3em 2em;
 }
 
 .day {
-	font-size: 8em;
-	font-weight: 900;
-	line-height: 1em;
+  font-size: 8em;
+  font-weight: 900;
+  line-height: 1em;
 }
 
 .month {
-	font-size: 4em;
-	line-height: 1em;
-	text-transform: lowercase;
+  font-size: 4em;
+  line-height: 1em;
+  text-transform: lowercase;
 }
 
 .calendar {
-	background: #fff;
-	border-radius: 0 0 1em 1em;
-	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
-	box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
-	color: #555;
-	display: inline-block;
-	padding: 2em;
+  background: #fff;
+  border-radius: 0 0 1em 1em;
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+  color: #555;
+  display: inline-block;
+  padding: 2em;
 }
 
 .calendar thead {
-	color: #e66b6b;
-	font-weight: 700;
-	text-transform: uppercase;
+  color: #e66b6b;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .calendar td {
-	padding: .5em 1em;
-	text-align: center;
+  padding: .5em 1em;
+  text-align: center;
 }
 
 .calendar tbody td:hover {
-	background: #cacaca;
-	color: #fff;
+  background: #cacaca;
+  color: #fff;
 }
 
 .current-day {
-	color: #e66b6b;
+  color: #e66b6b;
 }
 
-.prev-month,
-.next-month {
-	color: #cacaca;
+.prev-month, .next-month {
+  color: #cacaca;
 }
 
-.ring-left,
+.ring-left, .ring-right {
+  position: absolute;
+  top: 230px;
+}
+
+.ring-left {
+  left: 2em;
+}
+
 .ring-right {
-	position: absolute;
-	top: 230px;
+  right: 2em;
 }
 
-.ring-left { left: 2em; }
-.ring-right { right: 2em; }
-
-.ring-left:before,
-.ring-left:after,
-.ring-right:before,
-.ring-right:after {
-	background: #fff;
-	border-radius: 4px;
-	-webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
-	box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
-	content: "";
-	display: inline-block;
-	margin: 8px;
-	height: 32px;
-	width: 8px;
+.ring-left:before, .ring-left:after, .ring-right:before, .ring-right:after {
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, .3), 0 -1px 1px rgba(0, 0, 0, .2);
+  content: "";
+  display: inline-block;
+  margin: 8px;
+  height: 32px;
+  width: 8px;
 }
 
 body {
@@ -108,8 +108,8 @@ body {
   background-color: #333;
   position: fixed;
   width: 100%;
-    margin:0px;
-    top:0px;
+  margin: 0px;
+  top: 0px;
 }
 
 .topnav a {
@@ -120,7 +120,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-    
 }
 
 .topnav a:hover {
@@ -138,7 +137,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -146,12 +147,13 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
-    position:fixed;
+    position: fixed;
     right: 0;
     top: 0;
-    
   }
   .topnav.responsive a {
     float: none;

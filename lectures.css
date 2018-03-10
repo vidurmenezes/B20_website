@@ -1,9 +1,9 @@
 #myDIV {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
 }
 body {
   margin: 0;
@@ -11,102 +11,82 @@ body {
   background-color: #efeaeab8;
 }
 h2{
-    color: #000000b5;
+  color: #000000b5;
 }
 
 #background {
-    
-     background-image: url(./img/background3.jpg);
-    overflow: auto;
-    height: 700px;
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
+
+ background-image: url(./img/background3.jpg);
+ overflow: auto;
+ height: 700px;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
 }
 #CourseTitle {
   color: white;
-    font-size: 20px;
-    background-color: transparent;
-    text-align: center;
-    padding: 10px;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 10%;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  font-size: 20px;
+  background-color: transparent;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .title{
-        color: #000000b5;
-        font-size: 25px;
-        margin-left: 40%;
-    }
+  color: #000000b5;
+  font-size: 25px;
+  margin-left:40%;
+
+}
 .space{
-    margin-top: 100px;
-    word-wrap: break-word;
+  margin-top: 100px;
+  word-wrap: break-word;
 }
 .space2{
-    margin-top: 30px;
-    word-wrap: break-word;
-    
+  margin-top: 30px;
+  word-wrap: break-word;
 }
 .standard{
-    display: none;
-    padding-left:16px;margin-top: 14px;
-    
+  display: none;
+  ;margin-top: 14px;
+
 }
 .center {
-    margin: auto;
-    width: 60%;
-    border: 1px solid ;
-    padding: 10px;
-    background-color:white;
-    border-radius: 15px;
-    color: black;
+  margin: auto;
+  width: 90%;
+  border: 1px solid ;
+  padding: 10px;
+  background-color:white;
+  border-radius: 15px;
+  color: black;
 }
 @media screen and (max-width: 900px) {
-    
-.active {
-  font-weight:bold;
-  color: white;
-  border-bottom: 2px solid gold;
-    width: 100px;
-   
-}
-    .center {
-    width: 90%;
-    border: 1px solid;
-    padding: 10px;
-    background-color: white;
-    border-radius: 15px;
-    color: black;
-    margin-left: 0px;
-}
-     #CourseTitle {
-  color: white;
-    font-size: 20px;
-    
-    text-align: center;
-    padding: 10px;
-    width: auto;
-    margin-top: 43%;
-    margin-left: 0px;
-    
-}
- .subtitle{
-text-align: center;
-}
-    #background {
-    
-     background-image: url(./img/background3.jpg);
-    overflow: auto;
-    height: 700px;
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
-}
 
-    
+  .active {
+    font-weight:bold;
+    color: white;
+    border-bottom: 2px solid gold;
+    width: 100px;
+
+  }
+  .subtitle{
+    text-align: center;
+  }
+  #background {
+
+   background-image: url(./img/background3.jpg);
+   overflow: auto;
+   height: 700px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+
+ }
+
+
 }

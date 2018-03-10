@@ -3,9 +3,10 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="lectures.css">
-      <link rel="stylesheet" type="text/css" href="navbar.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <script>
   function myFunction() {
@@ -16,14 +17,14 @@
       x.className = "topnav";
     }
   }
-    
-function toggle_visibility(id) {
-       var e = document.getElementById(id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
+
+  function toggle_visibility(id) {
+   var e = document.getElementById(id);
+   if(e.style.display == 'block')
+    e.style.display = 'none';
+  else
+    e.style.display = 'block';
+}
 </script>
 <body>
   <div class="topnav" id="myTopnav" style="font-family:Verdana;color:#aaaaaa;">
@@ -37,17 +38,17 @@ function toggle_visibility(id) {
     <a href="contact.html">Contact</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-     <div id="background">
-  <div id="CourseTitle">
-    <h1>LECTURES</h1>
+  <div id="background">
+    <div id="CourseTitle">
+      <h1>LECTURES</h1>
       <br>
       <i class="fas fa-graduation-cap fa-5x"></i>
+    </div>
   </div>
-  </div>
-    <div class="space">
-    <a class="title" onclick="toggle_visibility('foo1');">1)THING HERE</a>
-    <div class="standard" id="foo1">
-        <div class="center">
+  <div class="space">
+    <a class="title" href="#Week1" onclick="toggle_visibility('Week1');">WEEK 1</a>
+    <div class="standard" id="Week1">
+      <div class="center">
         <h3><u>Extra Material</u></h3>
         <ul id="extralinks">
           <li>
@@ -71,61 +72,54 @@ function toggle_visibility(id) {
             <a href="https://www.essentialsql.com/what-is-the-difference-between-a-primary-key-and-a-foreign-key/">https://www.essentialsql.com/what-is-the-difference-between-a-primary-key-and-a-foreign-key/</a>
           </li>
         </ul>
-        </div>
-    </div>
-    </div>
-    
-    
-<div class="space2">
-   <a class="title" onclick="toggle_visibility('foo2');">2)ANOTHER HERE</a>
-   
-  <div class="standard"id="foo2">
-       <div class="center">
-    <ul id="weeklist">
-      <li>Week 1</li>
-      <div id="topic">
-        Introduction, Databases background
       </div>
-      <div>
-        <h3><u>Summary</u></h3>
-        <ul id="summary">
-          <li>Expectations of the course.</li>
-          <li>What is a database?</li>
-          <li>What database technologies and web technologies are covered in this course? </li>
-          <li>SQL and PHP</li>
-          <li>HTML, CSS, JavaScript and JQuery</li>
-          <li>What is a  internet?</li>
-          <li>network of computers and routers.</li>
-          <li>What is a protocol?</li>
-          <li>We looked at briefly the http protocol and from a very high level understood the request/response  workflow.</li>
-          <li>Relation in Database</li>
-          <li>Tuple, record, data row (all mean the same thing). And a collection of these makes up a Relation. </li>
-          <li>Relation Schema (what columns/relation name)</li>
-          <li>Database Schema</li>
-          <li>Foriegn Key and Primary Key</li>
-        </ul>
-        <h3><u>Lecture Material</u></h3>
-    
-        <ul id="lecturelinks">
-          <li>
-            <a href="https://portal.utoronto.ca/bbcswebdav/pid-6516926-dt-content-rid-42416763_2/courses/Winter-2018-CSCB20H3-S-LEC01/B20Week1.pdf">B20Week1.pdf</a>
-          </li>
-          <li>
-            <a href="https://portal.utoronto.ca/bbcswebdav/pid-6516926-dt-content-rid-42416762_2/courses/Winter-2018-CSCB20H3-S-LEC01/B20Week2.pdf">B20Week2.pdf</a>
-          
-        </li>
-        </ul>
-
-      </div>
-        
-      <li>Week 2</li>
-      <li>Week 3</li>
-    </ul>
-    </div>
     </div>
   </div>
-    
-   
+
+
+  <div class="space2">
+   <a class="title" href="#Week2" onclick="toggle_visibility('Week2');">WEEK 2</a>
+
+   <div class="standard" id="Week2">
+     <div class="center">
+      <ul id="weeklist">
+        <div id="topic">
+          Introduction, Databases background
+        </div>
+        <div>
+          <h3><u>Summary</u></h3>
+          <ul id="summary">
+            <li>Expectations of the course.</li>
+            <li>What is a database?</li>
+            <li>What database technologies and web technologies are covered in this course? </li>
+            <li>SQL and PHP</li>
+            <li>HTML, CSS, JavaScript and JQuery</li>
+            <li>What is a  internet?</li>
+            <li>network of computers and routers.</li>
+            <li>What is a protocol?</li>
+            <li>We looked at briefly the http protocol and from a very high level understood the request/response  workflow.</li>
+            <li>Relation in Database</li>
+            <li>Tuple, record, data row (all mean the same thing). And a collection of these makes up a Relation. </li>
+            <li>Relation Schema (what columns/relation name)</li>
+            <li>Database Schema</li>
+            <li>Foriegn Key and Primary Key</li>
+          </ul>
+          <h3><u>Lecture Material</u></h3>
+
+          <ul id="lecturelinks">
+            <li>
+              <a href="https://portal.utoronto.ca/bbcswebdav/pid-6516926-dt-content-rid-42416763_2/courses/Winter-2018-CSCB20H3-S-LEC01/B20Week1.pdf">B20Week1.pdf</a>
+            </li>
+            <li>
+              <a href="https://portal.utoronto.ca/bbcswebdav/pid-6516926-dt-content-rid-42416762_2/courses/Winter-2018-CSCB20H3-S-LEC01/B20Week2.pdf">B20Week2.pdf</a>
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
-
