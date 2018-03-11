@@ -1,0 +1,1 @@
+As a student user, the student, after clicking the "Discussion Board" button, must redirected to the piazza page.

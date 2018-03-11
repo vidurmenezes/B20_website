@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "Contact" button, must be able to view the 
+Professor's and TA's contact information and office hours.

@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "News" button, must be able to view any
+news that have been posted by the instructors.

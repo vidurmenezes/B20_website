@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "Lectures" button, must be able to view all lecture material
+that is categorized by corresponding weeks.

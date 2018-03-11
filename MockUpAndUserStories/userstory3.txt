@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "Calendar" button, must be able to view the calendar 
+in which information can be seen about upcoming deadlines and schedule information.

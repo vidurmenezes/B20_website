@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "Labs" button, must be able to view all lab material
+that is categorized by corresponding weeks.

@@ -1,0 +1,2 @@
+As a student user, the student must be able to see the footer on every page that contains the link to the 
+Faculty of Computer Science at UofT and a blurb on the creators of the website.

@@ -1,0 +1,2 @@
+As a student user, the student must be able to view the course information, criteria,
+and guidelines/syllabus after clicking the "Home" button.

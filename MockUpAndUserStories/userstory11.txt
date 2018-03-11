@@ -1,0 +1,1 @@
+As a student user, the student, after clicking the "Markus" button, must redirected to the markus page to see up-to-date grades.

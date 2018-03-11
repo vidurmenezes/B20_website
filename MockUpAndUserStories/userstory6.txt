@@ -1,0 +1,2 @@
+As a student user, the student, after clicking the "Assignments" button, must be able to view
+any assignments and all corresponding information.
