@@ -21,9 +21,9 @@ a:visited {
 }
 
 #background {
-  background-image: url(./img/background3.jpg);
+  background-image: url(./img/background7.jpg);
   overflow: auto;
-  height: 700px;
+  height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

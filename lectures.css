@@ -16,14 +16,10 @@ h2 {
   color: #000000b5;
 }
 
-a:visited {
-  color: #000000b5;
-}
-
 #background {
   background-image: url(./img/background3.jpg);
   overflow: auto;
-  height: 700px;
+  height: 600px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,18 +33,28 @@ a:visited {
   background-color: transparent;
   text-align: center;
   padding: 10px;
-  margin-top: 200px;
+  margin-top: 150px;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .title {
   color: #000000b5;
   font-size: 25px;
+  margin-left:35%;
+  margin-right:35%;
   text-align: center;
+  border:solid;
+}
+.title:hover{
+  background-color: #c8d0cc;
+  cursor:pointer;
+}
+
+a:visited {
+  color: #000000b5;
 }
 
 .space {
-  margin-top: 30px;
   margin-bottom: 20px;
   word-wrap: break-word;
 }
