@@ -40,35 +40,11 @@ body {
   padding: 10px;
   width: 50%;
   margin-left: 25%;
-  margin-top: 10%;
+  margin-top: 150px;
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 @media screen and (max-width: 900px) {
-  #news {
-    width: 100%;
-    top: 100px;
-    height: 1000px;
-    margin-top: 50px;
-  }
-  #background {
-    background-image: url(./img/background6.jpg);
-    overflow: auto;
-    height: 700px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  #CourseTitle {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    width: auto;
-    margin-top: 43%;
-    margin-left: 0px;
-  }
   .container {
     background-color: white;
     padding: 2px 5px;
