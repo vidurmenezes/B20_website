@@ -15,17 +15,6 @@ td {
   transform: translate(-50%, -50%);
 }
 
-.calendar-container {
-  position: relative;
-  width: 450px;
-}
-
-.calendar-container header {
-  border-radius: 1em 1em 0 0;
-  background: #e66b6b;
-  color: #fff;
-  padding: 3em 2em;
-}
 
 .day {
   font-size: 8em;
