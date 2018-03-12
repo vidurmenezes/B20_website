@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="labs.css">
+
 <link rel="stylesheet" type="text/css" href="navbar.css">
  <link rel="stylesheet" type="text/css" href="footer.css">
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -27,6 +28,21 @@
     else
       e.style.display = 'block';
   }
+    function toggle_visibility_all(id) {
+        for (i = 1; i < 100; i++) { 
+            var text="";
+            text += id + i;
+            //document.write(text);
+            var e = document.getElementById(text);
+            
+            if (e.style.display == 'block')
+              e.style.display = 'none';
+            else
+              e.style.display = 'block';
+            }
+            
+        }
+    
 </script>
 <body style="font-family:Verdana;color:#aaaaaa;">
   <div class="topnav" id="myTopnav">
@@ -46,10 +62,14 @@
       <i class="fas fa-flask fa-5x"></i>
   </div>
 </div>
-
+ <div class="title">
+      <a onclick="toggle_visibility_all('Week');">EXPAND ALL</a>
+    </div>
+    <br>
+  
   <div class="space">
     <div class="title">
-      <a href="#Week1" onclick="toggle_visibility('Week1');">WEEK 1</a>
+      <a onclick="toggle_visibility('Week1');">LAB 1</a>
     </div>
     <div class="standard" id="Week1">
       <div class="center">
@@ -83,7 +103,7 @@
 
   <div class="space">
     <div class="title">
-      <a href="#Week2" onclick="toggle_visibility('Week2');">WEEK 2</a>
+      <a onclick="toggle_visibility('Week2');">LAB 2</a>
     </div>
     <div class="standard" id="Week2">
       <div class="center">
@@ -135,7 +155,7 @@
          <h2>CSCB2O <br><a class="gold" href="http://web.cs.toronto.edu/people/faculty.htm"><p> Faculty Of Computer Science</p></a>
          </h2>
       
-      <p2><u>CREATOR</u><br><a class="gold" href="https://github.com/alexeicoreiba"><i class="fab fa-github"></i></a> &nbsp;<a class="gold" href="https://www.linkedin.com/in/alexei-coreiba-12621b140/"><i class="fab fa-linkedin"></i></a>&nbsp;ALEXEI COREBRI</p2>   
+      <p2><u>CREATOR</u><br><a class="gold" href="https://github.com/alexeicoreiba"><i class="fab fa-github"></i></a> &nbsp;<a class="gold" href="https://www.linkedin.com/in/alexei-coreiba-12621b140/"><i class="fab fa-linkedin"></i></a>&nbsp;ALEXEI COREIBA</p2>   
        </footer>
    
   </div>

@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
   background-color: #efeaeab8;
 }
 
@@ -44,15 +44,19 @@ a:visited {
 .title {
   color: #000000b5;
   font-size: 25px;
+  margin-left:35%;
+  margin-right:35%;
   text-align: center;
+  border:solid;
 }
-
+.title:hover{
+  background-color: #c8d0cc;
+  cursor:pointer;
+}
 .space {
-  margin-top: 30px;
   margin-bottom: 20px;
   word-wrap: break-word;
 }
-
 .standard {
   display: none;
   margin-top: 14px;
