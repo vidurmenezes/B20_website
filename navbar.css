@@ -1,3 +1,5 @@
+
+
 .topnav {
   overflow: hidden;
   background: #000000cc;
@@ -7,10 +9,16 @@
   text-align: center;
 }
 
-.topnav.scroll {
-  background-color: #A1572F;
-  color: #eef;
+
+.topnav .navlink {
+  overflow: hidden;
+  background: #000000cc;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  text-align: center;
 }
+
 
 .topnav a {
   color: #f2f2f2;
