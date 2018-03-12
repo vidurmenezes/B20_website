@@ -5,7 +5,6 @@
   top: 0px;
   position: fixed;
   text-align: center;
-  display: inline-block;
 }
 
 .topnav.scroll {
@@ -23,7 +22,8 @@
 }
 
 .topnav a:hover {
-  background-color: transparent color: white;
+  background-color: transparent;
+  color: white;
   border-bottom: 2px solid gold;
   margin-bottom: 6px;
   font-size: 13px;
