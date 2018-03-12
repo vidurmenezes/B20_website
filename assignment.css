@@ -148,8 +148,6 @@ h2 {
 
 @media screen and (max-width: 900px) {
   #CourseTitle {
-    color: white;
-    font-size: 20px;
     text-align: center;
     padding: 10px;
     width: auto;
@@ -161,24 +159,18 @@ h2 {
   }
   #background {
     background-image: url(./img/background2.jpg);
-    overflow: auto;
-    height: 700px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
   .container {
     background-color: white;
     padding: 2px 5px;
     height: auto;
-    margin-left: 34%;
+    margin-left: 5%;
     position: inherit;
     -webkit-box-shadow: 8px 5px 5px -2px #888;
     color: #2095f2;
     text-align: center;
     font-size: 17px;
-    width: 210px;
+    width: 175%;
     padding-right: 11%;
     padding-bottom: 20%;
   }

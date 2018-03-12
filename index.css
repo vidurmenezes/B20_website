@@ -32,6 +32,10 @@
   border-radius: 25px;
 }
 
+.mainsection.active{
+  color: black;
+}
+
 .calendar {
   text-align: center;
   margin: 30px;
