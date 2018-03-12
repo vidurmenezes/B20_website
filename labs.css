@@ -45,10 +45,12 @@ h2 {
   margin-right:35%;
   text-align: center;
   border:solid;
+  background-color: white;
 }
 .title:hover{
   background-color: #c8d0cc;
   cursor:pointer;
+    color: white;
 }
 .space {
   margin-bottom: 20px;

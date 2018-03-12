@@ -7,7 +7,9 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
+h4{
+    font-size: 20px;
+}
 #CourseTitle {
   color: white;
   font-size: 20px;
@@ -24,12 +26,13 @@
   text-align: center;
   color: black;
   margin: 30px;
+    height: 200px;
   margin-left: 10%;
   margin-right: 10%;
   border: 1px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #f9fffc;
-  border-radius: 25px;
+  background-color: white;
+  #border-radius: 25px;
 }
 
 @media screen and (max-width: 840px) {
@@ -47,3 +50,16 @@
     padding-right: 11%;
     padding-bottom: 20%;
   }
+    .mainsection {
+  text-align: center;
+  color: black;
+  margin: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  #border-radius: 25px;
+}
+}
