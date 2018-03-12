@@ -146,7 +146,7 @@ h2 {
   text-align: justify;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 860px) {
   #CourseTitle {
     text-align: center;
     padding: 10px;
